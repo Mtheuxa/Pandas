@@ -125,7 +125,7 @@ def calcular_lucro_semanal(caminho_arquivo):
     
     # Usa o nome pedido se for o arquivo 11_18, senão cria um nome genérico
     if "11_18" in nome_sem_extensao:
-        caminho_saida = "Fechamento semana 11 a 18.xlsx"
+        caminho_saida = "Fechamento Semanal Mai 11 a 18.xlsx"
     else:
         caminho_saida = f"Fechamento_{nome_sem_extensao}.xlsx"
         
