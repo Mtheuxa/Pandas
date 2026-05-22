@@ -4,3 +4,4 @@ Fechamento semana 11 a 18.xlsx
 
 # Recomenda-se ignorar todos os arquivos Excel por segurança para não vazar dados financeiros
 *.xlsx
+*.pdf
