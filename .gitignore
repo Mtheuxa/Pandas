@@ -1,7 +1,33 @@
+# Arquivos compilados do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ambientes Virtuais (Virtualenvs)
+venv/
+env/
+.env/
+
+# Arquivos de IDEs e Editores (VS Code, PyCharm)
+.vscode/
+.idea/
+
+# Variáveis de ambiente e senhas
+.env
+
+# Arquivos de sistema (Windows / Mac)
+Thumbs.db
+.DS_Store
+
+# =========================
+# REGRAS ESPECÍFICAS DO SEU PROJETO
+# =========================
+
 # Ignorar planilhas de dados de vendas específicas
 11_18.xlsx
 Fechamento semana 11 a 18.xlsx
 
-# Recomenda-se ignorar todos os arquivos Excel por segurança para não vazar dados financeiros
+# Ignorar todos os arquivos de dados por segurança para não vazar informações
 *.xlsx
 *.pdf
+*.csv
