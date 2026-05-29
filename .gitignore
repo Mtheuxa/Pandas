@@ -31,3 +31,7 @@ Fechamento semana 11 a 18.xlsx
 *.xlsx
 *.pdf
 *.csv
+
+# Pastas de mídia geradas pelo Manim
+media/
+*/media/
